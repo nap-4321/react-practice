@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <NameList></NameList>
-      {/* dummy message */}
+      {/* dummy message extra words added */}
       {/* <UserGreeting></UserGreeting> */}
       {/* <ParentComponent></ParentComponent> */}
       {/* <EventBind></EventBind> */}
