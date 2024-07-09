@@ -21,9 +21,17 @@ const NameList = () => {
       skill: "Angular",
     },
   ];
-  const personList = persons.map((person) => (
-    <Person key={person.id} person={person} />
+  // const personList = persons.map((person) => (
+  //   <Person key={person.id} person={person} />
+  // ));
+  // return <div>{personList}</div>;
+
+  const nameList = names.map((name, index) => (
+    <h1 key={index}>
+      {index}
+      {name}
+    </h1>
   ));
-  return <div>{personList}</div>;
+  return <div>{nameList}</div>;
 };
 export default NameList;
