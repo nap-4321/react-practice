@@ -1,3 +1,4 @@
+import Person from "./Person";
 const NameList = () => {
   const names = ["Bruce", "Wayne", "Diana", "Bruce"];
   const persons = [
@@ -21,9 +22,7 @@ const NameList = () => {
     },
   ];
   const personList = persons.map((person) => (
-    <h1>
-      I am {person.name}. I am {person.age}. I know {person.skill}
-    </h1>
+    <Person key={person.id} person={person} />
   ));
   return <div>{personList}</div>;
 };
