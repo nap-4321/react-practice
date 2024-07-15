@@ -18,11 +18,13 @@ import "./appStyles.css";
 import styles from "./appStyles.module.css";
 import Form from "./components/Form";
 import FormThis from "./components/FormThis";
+import LifecycleA from "./components/LifecycleA";
 
 function App() {
   return (
     <>
-    {/* <FormThis/> */}
+      <LifecycleA />
+      {/* <FormThis/> */}
       {/* <Form /> */}
       {/* <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1> */}
