@@ -43,8 +43,8 @@ class LifecycleA extends Component {
     console.log("LifecycleA render");
     return (
       <div>
+        LifecycleA <br />
         <button onClick={this.changeState}>Change state</button>
-        LifecycleA
         <LifecycleB />
       </div>
     );

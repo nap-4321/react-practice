@@ -1,4 +1,4 @@
-import { useState } from "react";
+import PureComponent from "./components/PureComponent";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -19,11 +19,15 @@ import styles from "./appStyles.module.css";
 import Form from "./components/Form";
 import FormThis from "./components/FormThis";
 import LifecycleA from "./components/LifecycleA";
+import FragmentDemo from "./components/FragmentDemo";
+import Tables from "./components/Tables";
 
 function App() {
   return (
     <>
-      <LifecycleA />
+      <PureComponent />
+      {/* <Tables /> */}
+      {/* <LifecycleA /> */}
       {/* <FormThis/> */}
       {/* <Form /> */}
       {/* <h1 className="error">Error</h1>
@@ -40,9 +44,7 @@ function App() {
       {/* <Greet name="John" heroName="Superman"></Greet>
      <Greet name="Clark"></Greet>
       <Welcome name="Diana" heroName="Wonder Gal"></Welcome>  */}
-
       {/* <Message></Message> */}
-
       {/* <Counter></Counter> */}
     </>
   );
