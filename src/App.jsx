@@ -22,11 +22,15 @@ import LifecycleA from "./components/LifecycleA";
 import FragmentDemo from "./components/FragmentDemo";
 import Tables from "./components/Tables";
 import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
+import FocusInput from "./components/FocusInput";
 
 function App() {
   return (
     <>
-      <ParentComp />
+      <FocusInput />
+      {/* <RefsDemo></RefsDemo> */}
+      {/* <ParentComp /> */}
       {/* <Tables /> */}
       {/* <LifecycleA /> */}
       {/* <FormThis/> */}
