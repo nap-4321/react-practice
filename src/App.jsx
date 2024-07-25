@@ -21,11 +21,12 @@ import FormThis from "./components/FormThis";
 import LifecycleA from "./components/LifecycleA";
 import FragmentDemo from "./components/FragmentDemo";
 import Tables from "./components/Tables";
+import ParentComp from "./components/ParentComp";
 
 function App() {
   return (
     <>
-      <PureComponent />
+      <ParentComp />
       {/* <Tables /> */}
       {/* <LifecycleA /> */}
       {/* <FormThis/> */}
